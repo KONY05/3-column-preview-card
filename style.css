@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca:100,200,300,regular,500,600,700,800,900);
+
+@import url(https://fonts.googleapis.com/css?family=Big+Shoulders+Display:100,200,300,regular,500,600,700,800,900);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', 'Roboto';
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    position: relative;
+    height: 100vh;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 700px;
+}
+
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 35px 40px 35px 35px;
+}
+
+.box1 h2{
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box1 p{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+.button{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    width: 130px;
+    height: 42px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    mix-blend-mode: screen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover{
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+}
+
+.box2{
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 35px 40px 35px 35px;
+}
+
+.box2 h2{
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box2 p{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 35px 40px 35px 35px;
+}
+
+.box3 h2{
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box3 p{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
